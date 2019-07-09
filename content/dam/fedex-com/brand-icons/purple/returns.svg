@@ -1,0 +1,44 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 112 112"><title>working 2</title>
+<defs>
+    <style>
+        /* Hide all of the icons first. */
+        .icon {
+            display: none;
+        }
+
+        .icon--small {
+            display: block;
+        }
+
+
+        /* Display the desired icon and hide the others according to the viewport's size. */
+        @media screen and (min-width: 100px) {
+
+            .icon--large {
+                display: block;
+            }
+
+            .icon--small {
+                display: none;
+            }
+        }
+
+        @media screen and (max-width: 69px){
+            .icon--small * {
+                stroke-width: 3;
+            }
+        }
+    </style>
+</defs>
+
+
+<g class="icon icon--large">
+
+<polyline points="53.68 61.87 41.76 73.79 29.84 61.87" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><path d="M41.76,72.53V47.15c0-7.51,6.63-13,14.14-13h1c7.51,0,13.35,5.54,13.35,13v28" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><rect x="16.01" y="16.01" width="79.98" height="79.98" rx="4" ry="4" transform="translate(-23.2 56) rotate(-45)" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+</g>
+<g class="icon icon--small">
+
+<polyline points="53.68 61.87 41.76 73.79 29.84 61.87" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><path d="M41.76,72.53V47.15c0-7.51,6.63-13,14.14-13h1c7.51,0,13.35,5.54,13.35,13v28" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><rect x="16.01" y="16.01" width="79.98" height="79.98" rx="4" ry="4" transform="translate(-23.2 56) rotate(-45)" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+</g>
+
+</svg>

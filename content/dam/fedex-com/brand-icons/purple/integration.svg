@@ -1,0 +1,43 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 112 112"><title>working</title>
+
+<defs>
+    <style>
+        /* Hide all of the icons first. */
+        .icon {
+            display: none;
+        }
+
+        .icon--small {
+            display: block;
+        }
+
+
+        /* Display the desired icon and hide the others according to the viewport's size. */
+        @media screen and (min-width: 100px) {
+
+            .icon--large {
+                display: block;
+            }
+
+            .icon--small {
+                display: none;
+            }
+        }
+
+        @media screen and (max-width: 69px){
+            .icon--small * {
+                stroke-width: 3;
+            }
+        }
+    </style>
+</defs>
+
+
+<g class="icon icon--large">
+    <path d="M32.9,79.46,27.43,92.2A1.47,1.47,0,0,0,28,94.05l16.44,9.6a1.47,1.47,0,0,0,1.91-.38l8.41-11a37,37,0,0,0,12.64.11l8.27,11.07a1.47,1.47,0,0,0,1.91.4l16.53-9.43a1.47,1.47,0,0,0,.63-1.85l-5.3-12.69a35,35,0,0,0,6.47-11l13.61-1.61a1.47,1.47,0,0,0,1.3-1.45l.09-19a1.47,1.47,0,0,0-1.29-1.47L96.15,43.53a36.87,36.87,0,0,0-6.4-11.23l5.36-12.5a1.47,1.47,0,0,0-.61-1.85L78.06,8.35a1.47,1.47,0,0,0-1.91.38L67.91,19.55A36.9,36.9,0,0,0,55,19.49L46.84,8.59a1.47,1.47,0,0,0-1.91-.4L28.4,17.63a1.47,1.47,0,0,0-.63,1.85l5.29,12.65" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><polyline points="53.23 72.58 69.81 56 53.23 39.42" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><line x1="69" y1="56" x2="1.07" y2="56" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+</g>
+<g class="icon icon--small">
+    <path d="M32.9,79.46,27.43,92.2A1.47,1.47,0,0,0,28,94.05l16.44,9.6a1.47,1.47,0,0,0,1.91-.38l8.41-11a37,37,0,0,0,12.64.11l8.27,11.07a1.47,1.47,0,0,0,1.91.4l16.53-9.43a1.47,1.47,0,0,0,.63-1.85l-5.3-12.69a35,35,0,0,0,6.47-11l13.61-1.61a1.47,1.47,0,0,0,1.3-1.45l.09-19a1.47,1.47,0,0,0-1.29-1.47L96.15,43.53a36.87,36.87,0,0,0-6.4-11.23l5.36-12.5a1.47,1.47,0,0,0-.61-1.85L78.06,8.35a1.47,1.47,0,0,0-1.91.38L67.91,19.55A36.9,36.9,0,0,0,55,19.49L46.84,8.59a1.47,1.47,0,0,0-1.91-.4L28.4,17.63a1.47,1.47,0,0,0-.63,1.85l5.29,12.65" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><polyline points="53.23 72.58 69.81 56 53.23 39.42" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><line x1="69" y1="56" x2="1.07" y2="56" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+</g>
+
+</svg>

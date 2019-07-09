@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-2 -2 116 116">
+    <defs>
+        <style>
+            /* Hide all of the icons first. */
+            .icon {
+                display: none;
+            }
+
+            .icon--small {
+                display: block;
+            }
+
+
+            /* Display the desired icon and hide the others according to the viewport's size. */
+            @media screen and (min-width: 100px) {
+
+                .icon--large {
+                    display: block;
+                }
+
+                .icon--small {
+                    display: none;
+                }
+            }
+
+            @media screen and (max-width: 69px){
+                .icon--small * {
+                    stroke-width: 3;
+                }
+            }
+        </style>
+    </defs>
+
+
+    <g class="icon icon--large">
+        <polyline points="58.51 86.63 45.63 92.97 1 71.02 1 27.11 45.63 5.16 90.17 27.11 90.17 49.07" fill="none" stroke="#4d148c" stroke-miterlimit="10" stroke-width="2"/><line x1="45.67" y1="49.07" x2="1" y2="27.12" fill="none" stroke="#4d148c" stroke-miterlimit="10" stroke-width="2"/><line x1="52.2" y1="45.76" x2="7.52" y2="23.8" fill="none" stroke="#4d148c" stroke-miterlimit="10" stroke-width="2"/><line x1="56.64" y1="17.16" x2="25.22" y2="32.6" fill="none" stroke="#4d148c" stroke-miterlimit="10" stroke-width="2"/><line x1="63.27" y1="20.42" x2="31.95" y2="35.81" fill="none" stroke="#4d148c" stroke-miterlimit="10" stroke-width="2"/><line x1="83.65" y1="30.44" x2="38.97" y2="8.48" fill="none" stroke="#4d148c" stroke-miterlimit="10" stroke-width="2"/><line x1="45.67" y1="49.07" x2="45.67" y2="91.84" fill="none" stroke="#4d148c" stroke-miterlimit="10" stroke-width="2"/><line x1="90.17" y1="27.12" x2="45.67" y2="49.07" fill="none" stroke="#4d148c" stroke-miterlimit="10" stroke-width="2"/><path d="M88,54.71a19.3,19.3,0,0,1,0,27,18.61,18.61,0,0,1-26.6,0,19.3,19.3,0,0,1,0-27A18.61,18.61,0,0,1,88,54.71Z" fill="none" stroke="#4d148c" stroke-miterlimit="10" stroke-width="2"/><line x1="93.89" y1="91.79" x2="86.56" y2="84.14" fill="none" stroke="#4d148c" stroke-miterlimit="10" stroke-width="2"/><line x1="88.76" y1="81.31" x2="96.09" y2="88.95" fill="none" stroke="#4d148c" stroke-miterlimit="10" stroke-width="2"/><polygon points="110.6 102.5 106.53 106.53 93.34 92.78 97.36 88.69 110.6 102.5" fill="none" stroke="#4d148c" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+
+    <g class="icon icon--small">
+        <line x1="45.43" y1="49.83" x2="1" y2="28.5" fill="none" stroke="#4d148c" stroke-miterlimit="10" stroke-width="2" class="smallstroke"/><line x1="45.43" y1="49.83" x2="45.43" y2="91.39" fill="none" stroke="#4d148c" stroke-miterlimit="10" stroke-width="2" class="smallstroke"/><line x1="89.69" y1="28.5" x2="45.43" y2="49.83" fill="none" stroke="#4d148c" stroke-miterlimit="10" stroke-width="2" class="smallstroke"/><line x1="66.19" y1="17.22" x2="21.93" y2="38.55" fill="none" stroke="#4d148c" stroke-miterlimit="10" stroke-width="2" class="smallstroke"/><polyline points="89.69 47.24 89.69 28.5 45.39 7.17 1 28.5 1 71.16 45.39 92.49 57.9 86.47" fill="none" stroke="#4d148c" stroke-miterlimit="10" stroke-width="2" class="smallstroke"/><path d="M87.24,53.76a19.74,19.74,0,0,1,0,27.12,17.9,17.9,0,0,1-26,0,19.74,19.74,0,0,1,0-27.12A17.9,17.9,0,0,1,87.24,53.76Z" fill="none" stroke="#4d148c" stroke-miterlimit="10" stroke-width="2" class="smallstroke"/><polyline points="90.83 77.86 110.61 98.47 104.83 104.5 85.04 83.89" fill="none" stroke="#4d148c" stroke-miterlimit="10" stroke-width="2" class="smallstroke"/>
+    </g>
+</svg>

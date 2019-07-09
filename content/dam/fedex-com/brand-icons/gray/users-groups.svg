@@ -1,0 +1,43 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 112 112"><title>working</title>
+
+<defs>
+    <style>
+        /* Hide all of the icons first. */
+        .icon {
+            display: none;
+        }
+
+        .icon--small {
+            display: block;
+        }
+
+
+        /* Display the desired icon and hide the others according to the viewport's size. */
+        @media screen and (min-width: 100px) {
+
+            .icon--large {
+                display: block;
+            }
+
+            .icon--small {
+                display: none;
+            }
+        }
+
+        @media screen and (max-width: 69px){
+            .icon--small * {
+                stroke-width: 3;
+            }
+        }
+    </style>
+</defs>
+
+
+<g class="icon icon--large">
+    <circle cx="40.29" cy="46.77" r="39.22" fill="none" stroke="#58595B" stroke-miterlimit="10" stroke-width="2"/><circle cx="40.29" cy="41.16" r="13.75" fill="none" stroke="#58595B" stroke-miterlimit="10" stroke-width="2"/><path d="M16.59,78l3.66-18.87A5.06,5.06,0,0,1,25,55.24H55.55a5.06,5.06,0,0,1,4.76,3.93L64,78" fill="none" stroke="#58595B" stroke-miterlimit="10" stroke-width="2"/><path d="M63.12,84.17A24,24,0,1,0,82.55,56.73" fill="none" stroke="#58595B" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><circle cx="86.88" cy="76.97" r="8.43" fill="none" stroke="#58595B" stroke-miterlimit="10" stroke-width="2"/><path d="M72.35,99.58l2-10.05a5.06,5.06,0,0,1,4.76-3.93H94.7a5.06,5.06,0,0,1,4.76,3.93l2,10.05" fill="none" stroke="#58595B" stroke-miterlimit="10" stroke-width="2"/>
+</g>
+<g class="icon icon--small">
+    <circle cx="40.29" cy="46.77" r="39.22" fill="none" stroke="#58595B" stroke-miterlimit="10" stroke-width="2"/><circle cx="40.29" cy="41.16" r="13.75" fill="none" stroke="#58595B" stroke-miterlimit="10" stroke-width="2"/><path d="M16.59,78l3.66-18.87A5.06,5.06,0,0,1,25,55.24H55.55a5.06,5.06,0,0,1,4.76,3.93L64,78" fill="none" stroke="#58595B" stroke-miterlimit="10" stroke-width="2"/><path d="M63.12,84.17A24,24,0,1,0,82.55,56.73" fill="none" stroke="#58595B" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><circle cx="86.88" cy="76.97" r="8.43" fill="none" stroke="#58595B" stroke-miterlimit="10" stroke-width="2"/><path d="M72.35,99.58l2-10.05a5.06,5.06,0,0,1,4.76-3.93H94.7a5.06,5.06,0,0,1,4.76,3.93l2,10.05" fill="none" stroke="#58595B" stroke-miterlimit="10" stroke-width="2"/>
+</g>
+
+</svg>

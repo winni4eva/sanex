@@ -1,0 +1,23 @@
+.enclosure{position:relative;width:300px;margin:0 auto}
+#initialSearch{position:absolute}
+.ui-autocomplete{box-shadow:0 6px 12px rgba(0,0,0,.175);padding:.2px}
+#initialSearch .dropdown-menu{outline:0;display:block}
+#ui-id-1{top:-25px !important;overflow:auto;height:auto;max-height:335px}
+ul#fdx_compatibleDropdown.dropdown-menu{margin-top:0;padding-top:0;padding-bottom:0;border-bottom-width:0;border-top-width:0}
+.fdx_compatible_searchFilter{background-image:url('');background-size:51px 27px;background-position:9px 12px;background-repeat:no-repeat;background-color:#fff;width:400px;font-size:16px;padding:17px 42px 13px 57px;border:1px solid;margin:10px 0 12px 0;border-radius:25px;border-color:#e3e3e3 !important;color:#333 !important;height:3.25em;bottom:3px}
+.ui-autocomplete-category{background-color:#f2f2f2 !important;padding:10px;font-family:'Roboto';font-style:normal;font-weight:bold;font-size:14pt;-webkit-font-smoothing:antialiased;border-color:#e3e3e3 !important;color:#333 !important;border-bottom:1px solid rgba(182,182,182,0.5)}
+.ui-menu .ui-menu-item a{background-color:#fff;color:#333;border-color:#e3e3e3;font-family:'Roboto';font-style:normal;font-weight:400;font-size:14pt;-webkit-font-smoothing:antialiased;padding:9px;display:block}
+.ui-menu .ui-menu-item{border-bottom:1px solid rgba(227,227,227,0.5)}
+::placeholder{color:#333 !important}
+.ui-menu .ui-menu-item a:hover,.ui-state-focus,.ui-state-active{background:#f2f2f2 !important}
+.magnifier{background-position:9px 12px}
+.fx-copy .fx-form{text-align:center !important}
+.search_closeMark::-ms-clear{display:none}
+#compatible_cross{left:359px;position:absolute;height:16px;top:30px;width:17px}
+#compatible_magnifier{position:absolute;width:25px;height:36px;left:20px;top:23px}
+.ui-autocomplete.ui-menu{position:absolute;width:400px !important}
+@media(max-width :767px){.fdx_compatible_searchFilter{position:relative;width:100%}
+#compatible_cross{left:266px;top:28px}
+.ui-autocomplete.ui-menu{position:absolute;width:300px !important}
+#initialSearch .dropdown-menu{width:300px !important}
+}

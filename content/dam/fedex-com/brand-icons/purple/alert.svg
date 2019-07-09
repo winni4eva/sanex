@@ -1,0 +1,43 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 112 112"><title>working 2</title>
+
+<defs>
+    <style>
+        /* Hide all of the icons first. */
+        .icon {
+            display: none;
+        }
+
+        .icon--small {
+            display: block;
+        }
+
+
+        /* Display the desired icon and hide the others according to the viewport's size. */
+        @media screen and (min-width: 100px) {
+
+            .icon--large {
+                display: block;
+            }
+
+            .icon--small {
+                display: none;
+            }
+        }
+
+        @media screen and (max-width: 69px){
+            .icon--small * {
+                stroke-width: 3;
+            }
+        }
+    </style>
+</defs>
+
+    <g class="icon icon--large">
+<path d="M58.6,79.81V86H52.42V79.81ZM56.76,77H54.26l-1.6-18.5V45.82h6.93V58.48Z" fill="#4d148c"/><path d="M1.33,100.42,53.91,9.54a2.41,2.41,0,0,1,4.17.1l52.59,90.72c.93,1.61-.23,3.25-2.09,3.25H3.41C1.56,103.61.4,102,1.33,100.42Z" fill="none" stroke="#4d148c" stroke-miterlimit="10" stroke-width="2" class="smallstroke"/>
+</g>
+
+<g class="icon icon--small">
+<path d="M58.6,79.81V86H52.42V79.81ZM56.76,77H54.26l-1.6-18.5V45.82h6.93V58.48Z" fill="#4d148c"/><path d="M1.33,100.42,53.91,9.54a2.41,2.41,0,0,1,4.17.1l52.59,90.72c.93,1.61-.23,3.25-2.09,3.25H3.41C1.56,103.61.4,102,1.33,100.42Z" fill="none" stroke="#4d148c" stroke-miterlimit="10" stroke-width="2" class="smallstroke"/>
+</g>
+
+</svg>

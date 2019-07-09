@@ -1,0 +1,42 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 112 112"><title>working 2</title>
+<defs>
+    <style>
+        /* Hide all of the icons first. */
+        .icon {
+            display: none;
+        }
+
+        .icon--small {
+            display: block;
+        }
+
+
+        /* Display the desired icon and hide the others according to the viewport's size. */
+        @media screen and (min-width: 100px) {
+
+            .icon--large {
+                display: block;
+            }
+
+            .icon--small {
+                display: none;
+            }
+        }
+
+        @media screen and (max-width: 69px){
+            .icon--small * {
+                stroke-width: 3;
+            }
+        }
+    </style>
+</defs>
+
+
+<g class="icon icon--large">
+<circle cx="56" cy="56" r="18.96" transform="translate(-23.17 53.96) rotate(-43.52)" fill="none" stroke="#58595B" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><path d="M91.43,76.52a41,41,0,0,0,3-6.32l15.08-1.79a1.63,1.63,0,0,0,1.44-1.61l.1-21.07a1.63,1.63,0,0,0-1.42-1.62L94.63,42.18a40.85,40.85,0,0,0-7.1-12.44l5.94-13.84a1.63,1.63,0,0,0-.68-2.05L74.6,3.23a1.63,1.63,0,0,0-2.12.42l-9.13,12A40.86,40.86,0,0,0,49,15.57L40,3.5a1.63,1.63,0,0,0-2.11-.44L19.6,13.5a1.63,1.63,0,0,0-.7,2l5.86,14a38.68,38.68,0,0,0-7.1,12.24L2.54,43.59A1.63,1.63,0,0,0,1.1,45.2L1,66.27A1.63,1.63,0,0,0,2.42,67.9L17.6,69.85a40.86,40.86,0,0,0,7,12.13L18.52,96.09a1.63,1.63,0,0,0,.68,2.05l18.2,10.62a1.63,1.63,0,0,0,2.12-.42l9.31-12.22a40.87,40.87,0,0,0,14,.12L72,108.5a1.63,1.63,0,0,0,2.11.44L92.4,98.5a1.63,1.63,0,0,0,.7-2L87.22,82.4A41.06,41.06,0,0,0,91.43,76.52Z" fill="none" stroke="#58595B" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+</g>
+<g class="icon icon--small">
+<circle cx="56" cy="56" r="18.96" transform="translate(-23.17 53.96) rotate(-43.52)" fill="none" stroke="#58595B" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><path d="M91.43,76.52a41,41,0,0,0,3-6.32l15.08-1.79a1.63,1.63,0,0,0,1.44-1.61l.1-21.07a1.63,1.63,0,0,0-1.42-1.62L94.63,42.18a40.85,40.85,0,0,0-7.1-12.44l5.94-13.84a1.63,1.63,0,0,0-.68-2.05L74.6,3.23a1.63,1.63,0,0,0-2.12.42l-9.13,12A40.86,40.86,0,0,0,49,15.57L40,3.5a1.63,1.63,0,0,0-2.11-.44L19.6,13.5a1.63,1.63,0,0,0-.7,2l5.86,14a38.68,38.68,0,0,0-7.1,12.24L2.54,43.59A1.63,1.63,0,0,0,1.1,45.2L1,66.27A1.63,1.63,0,0,0,2.42,67.9L17.6,69.85a40.86,40.86,0,0,0,7,12.13L18.52,96.09a1.63,1.63,0,0,0,.68,2.05l18.2,10.62a1.63,1.63,0,0,0,2.12-.42l9.31-12.22a40.87,40.87,0,0,0,14,.12L72,108.5a1.63,1.63,0,0,0,2.11.44L92.4,98.5a1.63,1.63,0,0,0,.7-2L87.22,82.4A41.06,41.06,0,0,0,91.43,76.52Z" fill="none" stroke="#58595B" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+</g>
+
+</svg>

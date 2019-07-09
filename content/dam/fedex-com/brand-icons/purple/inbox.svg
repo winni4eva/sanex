@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-2 -2 116 116">
+    <defs>
+        <style>
+            /* Hide all of the icons first. */
+            .icon {
+                display: none;
+            }
+
+            .icon--small {
+                display: block;
+            }
+
+
+            /* Display the desired icon and hide the others according to the viewport's size. */
+            @media screen and (min-width: 100px) {
+
+                .icon--large {
+                    display: block;
+                }
+
+                .icon--small {
+                    display: none;
+                }
+            }
+
+            @media screen and (max-width: 69px){
+                .icon--small *{
+                    stroke-width: 3;
+                }
+            }
+        </style>
+    </defs>
+
+
+    <g class="icon icon--large">
+<polyline points="56.05 89.12 36.78 89.12 32.08 73.89 1.34 73.89 1.34 108.92 56.05 108.92" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><polyline points="56.05 89.12 75.32 89.12 80.01 73.89 110.76 73.89 110.76 108.92 56.05 108.92" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><polygon points="82.89 44.66 68.99 44.66 68.99 3.08 43.04 3.09 43.04 44.66 29.21 44.66 55.89 75.86 82.89 44.66" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+
+    <g class="icon icon--small">
+<polygon points="84.49 52.08 69.76 52.08 69.76 8.03 42.26 8.03 42.26 52.08 27.6 52.08 55.88 85.16 84.49 52.08" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><path d="M1,49.82V103a1,1,0,0,0,1,1H110.08a1,1,0,0,0,1-1V49.82" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+</svg>

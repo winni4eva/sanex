@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-2 -2 116 116">
+    <defs>
+        <style>
+            /* Hide all of the icons first. */
+            .icon {
+                display: none;
+            }
+
+            .icon--small {
+                display: block;
+            }
+
+
+            /* Display the desired icon and hide the others according to the viewport's size. */
+            @media screen and (min-width: 100px) {
+
+                .icon--large {
+                    display: block;
+                }
+
+                .icon--small {
+                    display: none;
+                }
+            }
+
+            @media screen and (max-width: 69px){
+                .icon--small *{
+                    stroke-width: 3;
+                }
+            }
+        </style>
+    </defs>
+
+
+    <g class="icon icon--large">
+<polyline points="91.93 66.53 91.93 81.96 56 98.87 20.07 81.96 20.07 65.78" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><line x1="56" y1="66.04" x2="56" y2="98.87" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><line x1="19.86" y1="48.13" x2="34.92" y2="40.96" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><polyline points="19.86 48.13 1 56.58 36.55 73.5 55.41 65.04 19.86 48.13" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><line x1="92.14" y1="48.13" x2="77.08" y2="40.96" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><polyline points="92.14 48.13 111 56.58 75.45 73.5 56.59 65.04 92.14 48.13" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><circle cx="56" cy="11.34" r="2.79" fill="#4d148c"/><circle cx="50.71" cy="21.92" r="2.79" fill="#4d148c"/><circle cx="61.29" cy="21.92" r="2.79" fill="#4d148c"/><circle cx="45.42" cy="32.5" r="2.79" fill="#4d148c"/><circle cx="56" cy="32.5" r="2.79" fill="#4d148c"/><circle cx="66.58" cy="32.5" r="2.79" fill="#4d148c"/><circle cx="40.13" cy="43.09" r="2.79" fill="#4d148c"/><circle cx="50.71" cy="43.09" r="2.79" fill="#4d148c"/><circle cx="61.29" cy="43.09" r="2.79" fill="#4d148c"/><circle cx="71.87" cy="43.09" r="2.79" fill="#4d148c"/><path d="M48.51,88.64a.94.94,0,0,0-.55-.81c-.32-.14-.55,0-.55.32A.94.94,0,0,0,48,89c.32.14.55,0,.55-.31m-.69-.28v.37l-.12-.05v-.81L48,88a.36.36,0,0,1,.25.34.1.1,0,0,1-.14.11h0c.07,0,.09.11.11.23a1,1,0,0,0,.05.25l-.14-.06c0-.09,0-.2-.05-.3a.21.21,0,0,0-.14-.16Zm.15,0c.12.05.15,0,.15,0s0-.13-.15-.18L47.82,88v.23Zm-.68-.23c0-.4.32-.53.68-.37a1.16,1.16,0,0,1,.68,1c0,.4-.32.53-.68.37a1.16,1.16,0,0,1-.68-1" fill="#4d148c"/><path d="M45,85.77l1.63-1.09-1.91-.85-.66.46-.69-1.06L39.68,81.6v-.49l1.72.77V80.42l-4.64-2.06v2.3h0a2.36,2.36,0,0,0-1.08-.93c-.87-.39-1.53-.09-1.76.59A3.42,3.42,0,0,0,32,78c-.82-.36-1.46-.28-1.79.16v-.74l-1.69-.75v-.8l1.84.82V75.49L27,74v5.61l1.5.67V77.92l1.5.67a1.86,1.86,0,0,0-.07.52A3.44,3.44,0,0,0,32,82c1,.43,1.6.26,1.94-.41L32.62,81c-.17.17-.31.18-.65,0a1.35,1.35,0,0,1-.75-1.1l2.62,1.17a3.39,3.39,0,0,0,1.84,2.55.92.92,0,0,0,1.07-.09h0V84l6.51,2.9L44,86.4l.7,1.07,2,.88Zm-13.7-6.6c.08-.32.36-.43.71-.27a1.23,1.23,0,0,1,.72.91ZM36,82.75a1.47,1.47,0,0,1-.79-1.27c0-.5.26-.87.79-.64a1.41,1.41,0,0,1,.77,1.33c0,.48-.23.82-.77.58m5.15,2.87-2.9-1.29V79.27l2.91,1.3v.92l-1.72-.77v1l1.7.76v.85l-1.72-.77V84l1.72.77ZM39.7,83.79V83l1.72.77V82.47L43,84.9l-1.55,1V84.55ZM44,86l-.8.54L42,86l1.4-.94L42,82.9l1.22.54L44,84.7l.78-.54,1.18.53-1.39.93L46,87.8l-1.24-.55Z" fill="#4d148c"/><circle cx="45.42" cy="53.69" r="2.79" fill="#4d148c"/><circle cx="56.03" cy="53.66" r="2.79" fill="#4d148c"/><circle cx="66.58" cy="53.66" r="2.79" fill="#4d148c"/>   </g>
+
+    <g class="icon icon--small">
+<polyline points="91.93 65.86 91.93 81.28 56 98.2 20.07 81.28 20.07 65.11" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><line x1="56" y1="64.69" x2="56" y2="98.2" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><line x1="19.86" y1="47.45" x2="34.92" y2="40.29" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><polyline points="19.86 47.45 1 55.91 36.55 72.83 55.41 64.37 19.86 47.45" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><line x1="92.14" y1="47.45" x2="77.08" y2="40.29" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><polyline points="92.14 47.45 111 55.91 75.45 72.83 56.59 64.37 92.14 47.45" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><circle cx="56" cy="16.59" r="2.79" fill="#4d148c"/><circle cx="50.71" cy="27.17" r="2.79" fill="#4d148c"/><circle cx="61.29" cy="27.17" r="2.79" fill="#4d148c"/><circle cx="45.42" cy="37.75" r="2.79" fill="#4d148c"/><circle cx="56" cy="37.75" r="2.79" fill="#4d148c"/><circle cx="66.58" cy="37.75" r="2.79" fill="#4d148c"/><circle cx="40.13" cy="48.34" r="2.79" fill="#4d148c"/><circle cx="50.71" cy="48.34" r="2.79" fill="#4d148c"/><circle cx="61.29" cy="48.34" r="2.79" fill="#4d148c"/><circle cx="71.87" cy="48.34" r="2.79" fill="#4d148c"/>
+    </g>
+</svg>

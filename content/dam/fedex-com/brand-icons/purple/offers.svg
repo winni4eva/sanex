@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-2 -2 116 116">
+    <defs>
+        <style>
+            /* Hide all of the icons first. */
+            .icon {
+                display: none;
+            }
+
+            .icon--small {
+                display: block;
+            }
+
+
+            /* Display the desired icon and hide the others according to the viewport's size. */
+            @media screen and (min-width: 100px) {
+
+                .icon--large {
+                    display: block;
+                }
+
+                .icon--small {
+                    display: none;
+                }
+            }
+
+            @media screen and (max-width: 69px){
+                .icon--small *{
+                    stroke-width: 3;
+                }
+            }
+        </style>
+    </defs>
+
+
+    <g class="icon icon--large">
+<path d="M2.19,65.12l44.69,44.69a3.61,3.61,0,0,0,5.11,0L109.81,52a3.61,3.61,0,0,0,1-3.05L105.39,9.7a3.61,3.61,0,0,0-3.08-3.08L63.06,1.16a3.61,3.61,0,0,0-3.05,1L2.19,60A3.61,3.61,0,0,0,2.19,65.12Z" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><circle cx="85.93" cy="25.62" r="6.73" transform="translate(7.05 68.26) rotate(-45)" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><line x1="46.44" y1="34.46" x2="77.08" y2="65.11" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><line x1="41.76" y1="49.79" x2="61.76" y2="69.78" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><path d="M2.19,65.12l44.69,44.69a3.61,3.61,0,0,0,5.11,0L109.81,52a3.61,3.61,0,0,0,1-3.05L105.39,9.7a3.61,3.61,0,0,0-3.08-3.08L63.06,1.16a3.61,3.61,0,0,0-3.05,1L2.19,60A3.61,3.61,0,0,0,2.19,65.12Z" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><circle cx="85.93" cy="25.62" r="6.73" transform="translate(7.05 68.26) rotate(-45)" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><line x1="46.44" y1="34.46" x2="77.08" y2="65.11" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><line x1="41.76" y1="49.79" x2="61.76" y2="69.78" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><line x1="8.37" y1="54.46" x2="57.85" y2="103.95" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+
+    <g class="icon icon--small">
+<path d="M2.19,65.25l44.69,44.69a3.61,3.61,0,0,0,5.11,0l57.82-57.82a3.61,3.61,0,0,0,1-3.05L105.39,9.83a3.61,3.61,0,0,0-3.08-3.08L63.06,1.3a3.61,3.61,0,0,0-3.05,1L2.19,60.14A3.61,3.61,0,0,0,2.19,65.25Z" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><circle cx="85.93" cy="25.75" r="6.73" transform="translate(6.96 68.3) rotate(-45)" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><line x1="46.44" y1="34.6" x2="77.08" y2="65.24" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><line x1="41.76" y1="49.92" x2="61.76" y2="69.91" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><path d="M2.19,65.25l44.69,44.69a3.61,3.61,0,0,0,5.11,0l57.82-57.82a3.61,3.61,0,0,0,1-3.05L105.39,9.83a3.61,3.61,0,0,0-3.08-3.08L63.06,1.3a3.61,3.61,0,0,0-3.05,1L2.19,60.14A3.61,3.61,0,0,0,2.19,65.25Z" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><circle cx="85.93" cy="25.75" r="6.73" transform="translate(6.96 68.3) rotate(-45)" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><line x1="46.44" y1="34.6" x2="77.08" y2="65.24" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><line x1="41.76" y1="49.92" x2="61.76" y2="69.91" fill="none" stroke="#4d148c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+</svg>

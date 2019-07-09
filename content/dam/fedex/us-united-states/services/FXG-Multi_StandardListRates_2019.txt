@@ -1,0 +1,82 @@
+FedEx Ground Multiweight(R) Rates*								
+"Effective January 7, 2019"								
+"Posted November 5 , 2018"								
+								
+								
+U.S. Package Rates								
+								
+Tier 1/501								
+								
+Weight (lbs.)		Zone 2	Zone 3	Zone 4	Zone 5	Zone 6	Zone 7	Zone 8
+200-499			$34.31 	$42.84 	$45.70 	$54.48 	$68.58 	$79.42 	$92.53 
+500+			$29.73 	$37.21 	$39.71 	$47.42 	$59.49 	$68.58 	$79.92 
+Minimum Charge		$57.00 	$57.00 	$57.00 	$57.00 	$57.00 	$57.00 	$57.00 
+								
+Tier 2/502								
+								
+Weight (lbs.)		Zone 2	Zone 3	Zone 4	Zone 5	Zone 6	Zone 7	Zone 8
+200-499			$37.04 	$45.25 	$48.43 	$57.65 	$72.30 	$84.36 	$98.34 
+500+		 	$32.43 	$39.25 	$42.33 	$50.75 	$63.54 	$73.89 	$86.16 
+Minimum Charge		$57.00 	$57.00 	$57.00 	$57.00 	$57.00 	$57.00 	$57.00 
+								
+Tier 3/503								
+								
+Weight (lbs.)		Zone 2	Zone 3	Zone 4	Zone 5	Zone 6	Zone 7	Zone 8
+200-499		 	$38.86 	$48.63 	$52.04 	$61.92 	$77.64 	$90.60 	$106.08 
+500+			$34.14 	$42.84 	$46.12 	$54.82 	$68.58 	$80.02 	$93.60  
+Minimum Charge		$57.00 	$57.00 	$57.00 	$57.00 	$57.00 	$57.00 	$57.00 
+  								
+Tier 4/504								
+								
+Weight (lbs.)		Zone 2	Zone 3	Zone 4	Zone 5	Zone 6	Zone 7	Zone 8
+200-499		 	$40.93 	$50.94 	$54.60 	$65.45 	$81.74 	$95.96 	$112.42 
+500+		 	$36.32 	$45.62 	$48.94 	$58.31 	$72.70 	$85.87 	$100.44 
+Minimum Charge		$57.00 	$57.00 	$57.00 	$57.00 	$57.00 	$57.00 	$57.00 
+								
+Tier 5/505								
+								
+Weight (lbs.)		Zone 2	Zone 3	Zone 4	Zone 5	Zone 6	Zone 7	Zone 8
+200-499			$43.70 	$54.58 	$58.73 	$69.98 	$87.81 	$103.00 $119.31 
+500+			$40.01 	$49.21 	$53.20 	$63.38 	$79.10 	$93.11 	$107.63 
+Minimum Charge		$57.00 	$57.00 	$57.00 	$57.00 	$57.00 	$57.00 	$57.00 
+								
+Tier 6/506								
+								
+Weight (lbs.)		Zone 2	Zone 3	Zone 4	Zone 5	Zone 6	Zone 7	Zone 8
+200-499			$46.66 	$57.67 	$63.24 	$75.53 	$94.75 	$110.96 $129.79 
+500+			$43.24 	$53.63 	$58.63 	$69.83 	$87.60 	$102.86 $119.79 
+Minimum Charge		$59.00 	$59.00 	$59.00 	$59.00 	$59.00 	$59.00 	$59.00 
+								
+Tier 7								
+								
+Weight (lbs.)		Zone 2	Zone 3	Zone 4	Zone 5	Zone 6	Zone 7	Zone 8
+200+			$63.69 	$78.77 	$89.16 	$101.09 $130.38 $155.90 $180.77 
+Minimum Charge		$80.00 	$80.00 	$80.00 	$80.00 	$80.00 	$80.00 	$80.00 
+								
+Tier 8/508								
+								
+Weight (lbs.)		Zone 2	Zone 3	Zone 4	Zone 5	Zone 6	Zone 7	Zone 8
+200-499			$53.95 	$61.85 	$66.28 	$79.17 	$97.71 	$114.04 $134.36 
+500+			$49.90 	$57.20 	$61.31 	$73.45 	$90.58 	$105.01 $124.29 
+Minimum Charge		$83.00 	$83.00 	$83.00 	$83.00 	$83.00 	$83.00 	$83.00 
+								
+								
+International Package Rates								
+								
+Tier 550/554								
+								
+Weight (lbs.)		Zone 51	Zone 54					
+30-49 			$141.00 $192.00 					
+50-99			$109.00 $176.00  					
+100-149			$98.00 	$168.00 					
+150-499			$85.91 	$150.08 					
+500+			$69.00 	$144.00 					
+Minimum Charge		$56.40  $76.80 
+					
+ 								
+ 								
+*Additional surcharges apply to certain rural destinations in Canada.								
+								
+Any fraction of a pound is rounded up to the next-higher pound.								
+								
+"Ancillary clearance service fees may apply, depending on commodity."								

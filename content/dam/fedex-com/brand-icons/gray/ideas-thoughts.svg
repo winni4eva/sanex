@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-2 -2 116 116">
+    <defs>
+        <style>
+            /* Hide all of the icons first. */
+            .icon {
+                display: none;
+            }
+
+            .icon--small {
+                display: block;
+            }
+
+
+            /* Display the desired icon and hide the others according to the viewport's size. */
+            @media screen and (min-width: 100px) {
+
+                .icon--large {
+                    display: block;
+                }
+
+                .icon--small {
+                    display: none;
+                }
+            }
+
+            @media screen and (max-width: 69px){
+                .icon--small *{
+                    stroke-width: 3;
+                }
+            }
+        </style>
+    </defs>
+
+
+    <g class="icon icon--large">
+<line x1="42.77" y1="93.42" x2="69.23" y2="93.42" fill="none" stroke="#58595B" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><line x1="56" y1="87.62" x2="56" y2="59.03" fill="none" stroke="#58595B" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><circle cx="56" cy="50.4" r="8.63" fill="none" stroke="#58595B" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><path d="M56,13.5c-17.6,0-28.16,13.4-28.16,29.89v.43c0,20.84,16.69,22.67,16.69,43.79H56.48" fill="none" stroke="#58595B" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><path d="M56,13.5c17.6,0,28.16,13.4,28.16,29.89v.43c0,20.84-16.69,22.67-16.69,43.79H55.52" fill="none" stroke="#58595B" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><line x1="42.77" y1="99.06" x2="69.23" y2="99.06" fill="none" stroke="#58595B" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><line x1="42.77" y1="104.85" x2="69.23" y2="104.85" fill="none" stroke="#58595B" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><line x1="47.82" y1="110.5" x2="64.18" y2="110.5" fill="none" stroke="#58595B" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><line x1="56" y1="1.08" x2="56" y2="8.58" fill="none" stroke="#58595B" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><line x1="22.85" y1="17.54" x2="29" y2="21.84" fill="none" stroke="#58595B" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><line x1="15.16" y1="50.73" x2="22.66" y2="50.73" fill="none" stroke="#58595B" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><line x1="28.83" y1="77.63" x2="34.13" y2="72.33" fill="none" stroke="#58595B" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><line x1="56" y1="1.08" x2="56" y2="8.58" fill="none" stroke="#58595B" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><line x1="89.15" y1="17.54" x2="83" y2="21.84" fill="none" stroke="#58595B" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><line x1="96.84" y1="50.73" x2="89.34" y2="50.73" fill="none" stroke="#58595B" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><line x1="83.17" y1="77.63" x2="77.87" y2="72.33" fill="none" stroke="#58595B" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+
+    <g class="icon icon--small">
+<line x1="41" y1="91.63" x2="71" y2="91.63" fill="none" stroke="#58595B" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><line x1="56" y1="84.88" x2="56" y2="52.63" fill="none" stroke="#58595B" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><circle cx="56" cy="42.85" r="9.78" fill="none" stroke="#58595B" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><path d="M56,1C36,1,24.07,16.19,24.07,34.9v.49C24.07,59,43,61.1,43,85.05H56.55" fill="none" stroke="#58595B" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><path d="M56,1C76,1,87.93,16.19,87.93,34.9v.49C87.93,59,69,61.1,69,85.05H55.45" fill="none" stroke="#58595B" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><line x1="41" y1="98.03" x2="71" y2="98.03" fill="none" stroke="#58595B" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><line x1="41" y1="104.6" x2="71" y2="104.6" fill="none" stroke="#58595B" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/><line x1="46.72" y1="111" x2="65.28" y2="111" fill="none" stroke="#58595B" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+</svg>

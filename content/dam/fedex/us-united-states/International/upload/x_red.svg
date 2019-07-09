@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="112px" height="112px" viewBox="0 0 112 112" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>x</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Style" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="x" transform="translate(1.000000, 1.000000)" stroke="#DE002E" stroke-width="2">
+            <g id="QuestionMarkIcon-Copy-2">
+                <path d="M55,110 C24.62416,110 0,85.37584 0,55 C0,24.62416 24.62416,0 55,0 C85.37584,0 110,24.62416 110,55 C110,85.37584 85.37584,110 55,110 Z" id="Fill-1"></path>
+            </g>
+            <g id="Line-+-Line-Copy-17" stroke-linecap="square" transform="translate(31.555554, 30.555554)">
+                <path d="M0.111111113,0.269381212 L47.2515634,45.3602486" id="Line"></path>
+                <path d="M47.2515634,0.269381212 L0.111111113,45.3602486" id="Line-Copy"></path>
+            </g>
+        </g>
+    </g>
+</svg>
