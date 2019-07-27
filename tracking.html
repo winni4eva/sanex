@@ -325,28 +325,39 @@ FDX.DATALAYER.rateShipApp = {
 <script>
     var map;
     function initMap() {
+        var today = new Date();
+        var dd = String(today.getDate()).padStart(2, '0');
+        var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+        var yyyy = today.getFullYear();
+
+        today = mm + '/' + dd + '/' + yyyy;
 
         var locations = [
-            {lat: 38.963745, lng: 35.243320, title: 'Turkey'},
-            {lat: 51.165691, lng: 10.451526, title: 'Germany'},
-            {lat: 25.204849, lng: 55.270782, title: 'Dubai'},
-            {lat: -25.274399, lng: 133.775131, title: 'Australia'},
-            {lat: 22.396427, lng: 114.109497, title: 'Hong Kong'},
+            {lat: 38.963745, lng: 35.243320, title: 'Turkey', showDate: '07/27/2019'},
+            {lat: 51.165691, lng: 10.451526, title: 'Germany', showDate: '08/27/2019'},
+            {lat: 25.204849, lng: 55.270782, title: 'Dubai', showDate: '09/27/2019'},
+            {lat: -25.274399, lng: 133.775131, title: 'Australia', showDate: '10/27/2019'},
+            {lat: 22.396427, lng: 114.109497, title: 'Hong Kong', showDate: '11/27/2019'},
         ];
-
-        map = new google.maps.Map(document.getElementById('map'), {
-            center: locations[0],
-            zoom: 2
-        });
 
         var marker, i;
 
-        for (i = 0; i < locations.length; i++) {  
-            marker = new google.maps.Marker({
-                position: new google.maps.LatLng(locations[i]['lat'], locations[i]['lng']),
-                map: map,
-                title: locations[i]['title']
-            });
+        for (i = 0; i < locations.length; i++) { 
+
+            if(locations[i]['showDate'] == today) {
+
+                map = new google.maps.Map(document.getElementById('map'), {
+                    center: locations[0],
+                    zoom: 4
+                });
+
+                marker = new google.maps.Marker({
+                    position: new google.maps.LatLng(locations[i]['lat'], locations[i]['lng']),
+                    map: map,
+                    title: locations[i]['title']
+                });
+
+            }
 
             // google.maps.event.addListener(marker, 'click', (function(marker, i) {
             //     return function() {
