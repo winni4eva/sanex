@@ -51,92 +51,12 @@
 
     </script>
     
-<script>
-if (!FDX) {
-    var FDX = {};
-}
-FDX.DATALAYER ={};
-FDX.DATALAYER.event=[];
-FDX.DATALAYER.page = {
-        pageInfo: {
-             pageName: "home",
-             locale: "en_us",
-             language:"en",
-             historicalPageName : "us\/home\/fedex.com\/us home",
-             referrer : "",
-             toolUsage:"",
-             viewPort:"",
-             reportSuite:"",
-             region: "us",
-             ooyalaEnable: "false",
-             country:"us",
-             pagePath:"home",
-             securePage : "false"
-         },
-         category: {
-        	 pageType:"homepage",
-             primaryCategory: ""
-         },
-         onsiteSearch:{
-             term:"",
-             suggested: ""
-         },
-         link:{
-        	 data:"",
-        	 type:""
-         },
-         button:{
-        	 data:"",
-        	 type:""
-         },
-         assetSearch:{
-        	 keyword:"",
-        	 type:""
-         }
- };
-
-FDX.DATALAYER.trackData = {
-        track:"",
-        from: "",
-        to: "",
-        status: "",
-        keyX:""
-    };
-
-FDX.DATALAYER.track = {
-    isSingleTrack: true,
-    trackQuantity: 0,
-    trackInfo:[],
-};
-
-FDX.DATALAYER.googleAPIFlag=false;
-FDX.DATALAYER.inputField='';
-FDX.DATALAYER.userType="";
-  
-FDX.DATALAYER.locationApp = {
-        googleAPIFlag: "",      
-
-}; 
-FDX.DATALAYER.rateShipApp = {
-        from:{
-        	googleAPIFlag:"",
-    		value:""
-     },
-        to:{
-        	googleAPIFlag:"",
-    	 	value:""
-     }
-
-       
-};   
-
-</script>
 
     
 
 
     
-<script type="text/javascript" src="../etc.clientlibs/clientlibs/granite/jquery.min.772fb04d4ce536dfb06c17e789ad4dbd.js"></script>
+<!-- <script type="text/javascript" src="../etc.clientlibs/clientlibs/granite/jquery.min.772fb04d4ce536dfb06c17e789ad4dbd.js"></script> -->
 
 
 
@@ -148,20 +68,20 @@ FDX.DATALAYER.rateShipApp = {
 
 
     
-<script type="text/javascript" src="../etc.clientlibs/clientlibs/fedex/secureCheck.min.a6b25149a16df469fb833efab6642c04.js"></script>
+<!-- <script type="text/javascript" src="../etc.clientlibs/clientlibs/fedex/secureCheck.min.a6b25149a16df469fb833efab6642c04.js"></script>
 
 
 
 
     
-<script type="text/javascript" src="../etc.clientlibs/clientlibs/fedex/shippingRounting.min.25a3e1a799068945b3eb5019935e2c7e.js"></script>
+<script type="text/javascript" src="../etc.clientlibs/clientlibs/fedex/shippingRounting.min.25a3e1a799068945b3eb5019935e2c7e.js"></script> -->
 
 
 
 
 
     
-    <script src="../7d22d70439461d29ed62de66a54d3d615b02b63e/satelliteLib-3d572d82e882030a8850fcead05e17462ad161ac.js"></script>
+    <!-- <script src="../7d22d70439461d29ed62de66a54d3d615b02b63e/satelliteLib-3d572d82e882030a8850fcead05e17462ad161ac.js"></script> -->
 
     
 
@@ -369,15 +289,15 @@ FDX.DATALAYER.rateShipApp = {
 <input type="hidden" class="currentPagePath" value="/content/fedex-com/sites/us/en_us/home"/>
 
     <!-- HOMEPAGE MAIN BODY -->
-<main role="main">
-<div class="fxg-main-content">
+<main role="main" style="border: 2px solid black">
+<div class="fxg-main-content" style="border: 2px solid red">
     
     <div><!-- HERO START -->
 
-
+        
     
     
-        <div class="fxg-hero fxg-hero_homepage   " style="text-align: center;">
+        <div class="" style="text-align: center;">
             <div class="fxg-hero__background-image" style="background-image: url(../content/dam/fedex/us-united-states/G2M/upload/globe-shipping.jpg)" data-main-image="/content/dam/fedex/us-united-states/G2M/upload/globe-shipping.jpg" data-mobile-image="../content/dam/fedex/us-united-states/G2M/upload/brand_20180722_homepage_hero_june0119.jpg">
                 
                     <!-- <h1 class="fxg-supscript" style="text-align: center; color:#FFFFFF;">Welcome to FedEx</h1> -->
@@ -386,7 +306,7 @@ FDX.DATALAYER.rateShipApp = {
 				
 
 
-         
+                    
 		<div class="fxg-cube-container">
 			
 					
@@ -445,7 +365,7 @@ FDX.DATALAYER.rateShipApp = {
                     
 			
 			
-	 
+                    
 			
 					
 					
@@ -472,23 +392,23 @@ FDX.DATALAYER.rateShipApp = {
 <input type="hidden" id="trackModuleViewState" value="default-state"/>
 <input type="hidden" id="multipleTrackingNumberAltText" value="hero|MultiTrack"/>
 <input type="hidden" id="seeFullDetailsLinkText" value="SEE FULL DETAILS"/>
-
+<h3>Adam</h3>
     <div class="fxg-wrapper fxg-app__wrapper">
 
         <!-- SINGLE TRACKING APP -->
+        <h3>Adam</h3>
         <div class="fxg-app__single-tracking">
             <div class="fxg-app__form-wrapper fxg-tracking-app__state1">
-                <form class="fxg-form" method="POST" action="#" id="HomeTrackingApp">
+                <form class="fxg-form" method="POST" action="#" id="jiggle-form">
                     <div class="fxg-field">
-                        <input type="text" name="trackingnumber" class="fxg-field__input-text fxg-field__input--required" value="" onfocus="FDX.TRACKING.loadTrackScripts()" required title="Enter a FedEx tracking number to review shipping details." aria-required="true" data-errmsg="Please enter at least one tracking number."/>
-                        <input type="hidden" id="dataAnalyticsTracking" value="hero|Track"/>
+                        <input type="text" name="tracking" class="fxg-field__input-text fxg-field__input--required" value="" required title="Enter a Nevza tracking number to review shipping details." aria-required="true" data-errmsg="Please enter at least one tracking number."/>
                         <span class="fxg-field__placeholder fxg-field__floating-placeholder">Tracking ID</span>
                     </div>
                     
-                    <a href="./tracking.html" class="fxg-button fxg-button--orange" aria-label="Click your to track your package" id="btnSingleTrack" target="_blank">Track</a>
+                    <button class="fxg-button fxg-button--orange" aria-label="Click to track your package" onclick="trackButtonClicked">Track</button>
                 </form>
                 <div class="fxg-tracking-app__links-par">
-                    <div class="link section">
+                <div class="link section">
 <div class="link">
 	
 	<!-- Link in not using New FDL and Using Target  -->
@@ -498,7 +418,7 @@ FDX.DATALAYER.rateShipApp = {
 	<!-- Link in not using New FDL and Not Using Target  -->
 	
 	 
-	<a href="#" target="_self" class="fxg-link js-fxgc-init  default       fxg-mobile--hide  " data-analytics="link|MULTIPLE TRACKING NUMBERS" onclick="FDX.TRACKING.showMultiTracking();" style="color:inherit;">MULTIPLE TRACKING NUMBERS</a>  <span class="fxg-link__separator    fxg-mobile--hide" style="color:inherit;"> | </span> 
+	<!-- <a href="#" target="_self" class="fxg-link js-fxgc-init  default       fxg-mobile--hide  " data-analytics="link|MULTIPLE TRACKING NUMBERS" onclick="FDX.TRACKING.showMultiTracking();" style="color:inherit;">MULTIPLE TRACKING NUMBERS</a>  <span class="fxg-link__separator    fxg-mobile--hide" style="color:inherit;"> | </span>  -->
 		
 	  
 	  
@@ -1543,128 +1463,44 @@ Learn how Nevza Delivery Manager<sup>®</sup> can help ensure your deliveries me
 <script src="../etc/clientlibs/fedex/common/libs/lodashjs4.14.0/lodash.min.js"></script>
 
     
-<script type="text/javascript" src="../etc.clientlibs/clientlibs/fedex/page/homepage.min.c82f041d24828cbc4124de9e463cad12.js"></script>
-
-
-
-
-
-
-<script type="text/javascript">_satellite.pageBottom();</script>
-
+<!-- <script type="text/javascript" src="../etc.clientlibs/clientlibs/fedex/page/homepage.min.c82f041d24828cbc4124de9e463cad12.js"></script> -->
 
 
 <script>
-			var ua = navigator.userAgent,tem,
-			M = ua.match(/(opera|chrome|safari|firefox|msie|trident)\s?\/*(\d+)/i) || [];
-            var mobilePatt=/mobile/i;
-            var isMobile=mobilePatt.test(ua);
-            //console.log('isMobile ?',isMobile);
-        	//Mm = ua.match(/(opera|chrome|safari|firefox|msie|trident(?=\/))\s?\/?s*(\d+)/i) || [];
-            var returnType = false;
-     		if(!isMobile){
-	        	M = M[2]? [M[1], M[2]] :[navigator.appName,navigator.appVersion,'-?'];	     
-	       		if((tem = ua.match(/version\/(\d+)/i)) != null){
-	            	M.splice(1,1,tem[1]);
-	       		 }
-	       		var osTemp = navigator.appVersion,
-	            browserType = M.join(' '),
-	            fdx_browserType = browserType.toString().split(" ")[0].toLowerCase(),
-	            fdx_browserVMajor = parseInt(browserType.toString().split(" ")[1]) || 0; 
+    // function processForm(e) {
+    //     if (e.preventDefault) e.preventDefault();
 
-	            switch(fdx_browserType){
-	                case "opera" :
-	                     // Currently does not support Opera,  jsut not showing alert for Opera 11.1+ , MIni and Mobile
-	                    if(fdx_browserVMajor >= 11.1){ returnType = true;}
-	                    break;
-	                case "chrome" :
-	                    //Support Chrome 41+
-	                    if(fdx_browserVMajor >= 41){ returnType = true;}
-	                    break;
-	                case "safari" :
-	                    //Support Safari 7.0+
-	                    if(fdx_browserVMajor >= 7){ returnType = true;}
-	                    break;
-	                case "firefox" :
-	                    //Support Mozilla Firefox 38+
-	                    if(fdx_browserVMajor >= 38){ returnType = true;}
-	                    break;
-	                case "msie" :
-	                    //Support Microsoft Internet Explorer
-	                    if(fdx_browserVMajor >= 11){ returnType = true;} 
-	                    break;
-	                case "trident":
-	                    if(fdx_browserVMajor >= 7){ returnType = true;}
-	                    break;
-	                default:
-	                    returnType=true;
-	            	} 
-			}
-			else{
-				returnType=true;
-			}
-            if(returnType === false){
-                        window.onload=function(){
-                            try{
-                                    $("#myModal").modal();
-                            }
-                            catch(e){
-                                	//console.log('..catch..')
-                                    // lOGGING ERROR 
-                                    console.log(e);
-                                    window.onload=openModal();
-                    		}
-                       }
-			}
+    
 
-            function openModal(){
-                document.getElementById('myModal').style.display='block';
-                document.getElementById('myModal').style.opacity='1';
-                $('#myModal').css('background-color','rgba(0,0,0,0.5')
-                var buttonElements=$('.modal-content button');
-                var newEventListner=true;
-                if( document.getElementById('myModal').addEventListener === undefined){
-                    newEventListener=false;
-                }else{
-                    
-                    newEventListener=true;
-                }
-                if (newEventListener){
-                    $.each(buttonElements,function(element,value){
-                        value.addEventListener('click',function(){
-                            document.getElementById('myModal').style.opacity='0';
-                            document.getElementById('myModal').style.display='none';
-                        });
-                    });
-                }else{
-                    $.each(buttonElements,function(element,value){
-                        value.attachEvent('onclick',function(){
-                            document.getElementById('myModal').style.opacity='0';
-                            document.getElementById('myModal').style.display='none';
-                        });
-                    });
-                }        
-			}
+    //     // You must return false to prevent the default form behavior
+    //     return false;
+    // }
 
-    </script>
-<script type="text/javascript" >var _cf = _cf || []; _cf.push(['_setFsp', true]); _cf.push(['_setBm', true]); _cf.push(['_setAu', '/assets/a42eff75234fc36afb33e37af582']);</script><script type="text/javascript"  src="https://www.fedex.com/assets/a42eff75234fc36afb33e37af582"></script></body>
+    // var form = document.getElementById('HeaderTrackingModule');
+    // if (form.attachEvent) {
+    //     form.attachEvent("submit", processForm);
+    // } else {
+    //     form.addEventListener("submit", processForm);
+    // }
 
-<script>
-    function processForm(e) {
-        if (e.preventDefault) e.preventDefault();
+    // window.addEventListener("load",function() {
+    //     document.getElementById('jiggle-form').addEventListener("submit",function(e) {
+    //         e.preventDefault(); // before the code
+    //         /* do what you want with the form */
+    //         const form = document.querySelector('#jiggle-form');
+    //         const data = new URLSearchParams(new FormData(form).entries());
+    //         console.log("Made It Here", data);
+    //             // document.getElementById('track-link').click();
 
-        document.getElementById('track-link').click();
-
-        // You must return false to prevent the default form behavior
-        return false;
+    //         // Should be triggered on form submit
+    //         alert('hi');
+    //     });
+    // });
+    function trackButtonClicked () {
+        alert("Button Clicked");
     }
 
-    var form = document.getElementById('HeaderTrackingModule');
-    if (form.attachEvent) {
-        form.attachEvent("submit", processForm);
-    } else {
-        form.addEventListener("submit", processForm);
-    }
 </script>
+</body>
 <!-- Mirrored from www.fedex.com/en-us/home.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 08 Jul 2019 20:04:38 GMT -->
 </html>
