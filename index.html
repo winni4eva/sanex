@@ -392,20 +392,19 @@
 <input type="hidden" id="trackModuleViewState" value="default-state"/>
 <input type="hidden" id="multipleTrackingNumberAltText" value="hero|MultiTrack"/>
 <input type="hidden" id="seeFullDetailsLinkText" value="SEE FULL DETAILS"/>
-<h3>Adam</h3>
     <div class="fxg-wrapper fxg-app__wrapper">
 
         <!-- SINGLE TRACKING APP -->
-        <h3>Adam</h3>
+    
         <div class="fxg-app__single-tracking">
             <div class="fxg-app__form-wrapper fxg-tracking-app__state1">
                 <form class="fxg-form" method="POST" action="#" id="jiggle-form">
                     <div class="fxg-field">
-                        <input type="text" name="tracking" class="fxg-field__input-text fxg-field__input--required" value="" required title="Enter a Nevza tracking number to review shipping details." aria-required="true" data-errmsg="Please enter at least one tracking number."/>
+                        <input type="text" id="track-input-field" name="tracking" class="fxg-field__input-text fxg-field__input--required" value="" required title="Enter a Nevza tracking number to review shipping details." aria-required="true" data-errmsg="Please enter at least one tracking number."/>
                         <span class="fxg-field__placeholder fxg-field__floating-placeholder">Tracking ID</span>
                     </div>
                     
-                    <button class="fxg-button fxg-button--orange" aria-label="Click to track your package" onclick="trackButtonClicked">Track</button>
+                    <button class="fxg-button fxg-button--orange" aria-label="Click to track your package">Track</button>
                 </form>
                 <div class="fxg-tracking-app__links-par">
                 <div class="link section">
@@ -1467,40 +1466,20 @@ Learn how Nevza Delivery Manager<sup>®</sup> can help ensure your deliveries me
 
 
 <script>
-    // function processForm(e) {
-    //     if (e.preventDefault) e.preventDefault();
 
-    
-
-    //     // You must return false to prevent the default form behavior
-    //     return false;
-    // }
-
-    // var form = document.getElementById('HeaderTrackingModule');
-    // if (form.attachEvent) {
-    //     form.attachEvent("submit", processForm);
-    // } else {
-    //     form.addEventListener("submit", processForm);
-    // }
-
-    // window.addEventListener("load",function() {
-    //     document.getElementById('jiggle-form').addEventListener("submit",function(e) {
-    //         e.preventDefault(); // before the code
-    //         /* do what you want with the form */
-    //         const form = document.querySelector('#jiggle-form');
-    //         const data = new URLSearchParams(new FormData(form).entries());
-    //         console.log("Made It Here", data);
-    //             // document.getElementById('track-link').click();
-
-    //         // Should be triggered on form submit
-    //         alert('hi');
-    //     });
-    // });
-    function trackButtonClicked () {
-        alert("Button Clicked");
-    }
+    window.addEventListener("load",function() {
+        document.getElementById('jiggle-form').addEventListener("submit",function(e) {
+            e.preventDefault(); 
+            const input = document.getElementById('track-input-field');
+            if (input.value === 'adam') {
+                document.getElementById('track-link').click();
+            } else {
+                alert("Invalid tracking number !");
+            }
+        });
+    });
 
 </script>
 </body>
-<!-- Mirrored from www.fedex.com/en-us/home.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 08 Jul 2019 20:04:38 GMT -->
+
 </html>
