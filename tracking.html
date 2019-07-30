@@ -50,107 +50,6 @@
         padding: 0;
       }
     </style>
-    
-    <script>
-            var FDX = {};
-			FDX.contextPath = "";
-
-            window.fdx=window.fdx || {}; 
-            fdx.isBrand = "false";
-            fdx.context={
-                       envtVar:"",
-                       searchUrl:"/services/search",
-                       isPublishMode:"true"
-            };
-
-    </script>
-    
-<script>
-if (!FDX) {
-    var FDX = {};
-}
-FDX.DATALAYER ={};
-FDX.DATALAYER.event=[];
-FDX.DATALAYER.page = {
-        pageInfo: {
-             pageName: "home",
-             locale: "en_us",
-             language:"en",
-             historicalPageName : "us\/home\/fedex.com\/us home",
-             referrer : "",
-             toolUsage:"",
-             viewPort:"",
-             reportSuite:"",
-             region: "us",
-             ooyalaEnable: "false",
-             country:"us",
-             pagePath:"home",
-             securePage : "false"
-         },
-         category: {
-        	 pageType:"homepage",
-             primaryCategory: ""
-         },
-         onsiteSearch:{
-             term:"",
-             suggested: ""
-         },
-         link:{
-        	 data:"",
-        	 type:""
-         },
-         button:{
-        	 data:"",
-        	 type:""
-         },
-         assetSearch:{
-        	 keyword:"",
-        	 type:""
-         }
- };
-
-FDX.DATALAYER.trackData = {
-        track:"",
-        from: "",
-        to: "",
-        status: "",
-        keyX:""
-    };
-
-FDX.DATALAYER.track = {
-    isSingleTrack: true,
-    trackQuantity: 0,
-    trackInfo:[],
-};
-
-FDX.DATALAYER.googleAPIFlag=false;
-FDX.DATALAYER.inputField='';
-FDX.DATALAYER.userType="";
-  
-FDX.DATALAYER.locationApp = {
-        googleAPIFlag: "",      
-
-}; 
-FDX.DATALAYER.rateShipApp = {
-        from:{
-        	googleAPIFlag:"",
-    		value:""
-     },
-        to:{
-        	googleAPIFlag:"",
-    	 	value:""
-     }
-
-       
-};   
-
-</script>
-
-    
-
-
-    
-<script type="text/javascript" src="../etc.clientlibs/clientlibs/granite/jquery.min.772fb04d4ce536dfb06c17e789ad4dbd.js"></script>
 
 
 
@@ -161,21 +60,9 @@ FDX.DATALAYER.rateShipApp = {
 
 
 
-    
-<script type="text/javascript" src="../etc.clientlibs/clientlibs/fedex/secureCheck.min.a6b25149a16df469fb833efab6642c04.js"></script>
 
 
 
-
-    
-<script type="text/javascript" src="../etc.clientlibs/clientlibs/fedex/shippingRounting.min.25a3e1a799068945b3eb5019935e2c7e.js"></script>
-
-
-
-
-
-    
-    <script src="../7d22d70439461d29ed62de66a54d3d615b02b63e/satelliteLib-3d572d82e882030a8850fcead05e17462ad161ac.js"></script>
 
     
 
@@ -217,14 +104,14 @@ FDX.DATALAYER.rateShipApp = {
 <script src="../etc/clientlibs/fedex/common/libs/lodashjs4.14.0/lodash.min.js"></script>
 
     
-<script type="text/javascript" src="../etc.clientlibs/clientlibs/fedex/page/homepage.min.c82f041d24828cbc4124de9e463cad12.js"></script>
+<!-- <script type="text/javascript" src="../etc.clientlibs/clientlibs/fedex/page/homepage.min.c82f041d24828cbc4124de9e463cad12.js"></script> -->
 
 
 
 
 
 
-<script type="text/javascript">_satellite.pageBottom();</script>
+<!-- <script type="text/javascript">_satellite.pageBottom();</script> -->
 
 
 
@@ -291,37 +178,37 @@ FDX.DATALAYER.rateShipApp = {
                        }
 			}
 
-            function openModal(){
-                document.getElementById('myModal').style.display='block';
-                document.getElementById('myModal').style.opacity='1';
-                $('#myModal').css('background-color','rgba(0,0,0,0.5')
-                var buttonElements=$('.modal-content button');
-                var newEventListner=true;
-                if( document.getElementById('myModal').addEventListener === undefined){
-                    newEventListener=false;
-                }else{
+            // function openModal(){
+            //     document.getElementById('myModal').style.display='block';
+            //     document.getElementById('myModal').style.opacity='1';
+            //     $('#myModal').css('background-color','rgba(0,0,0,0.5')
+            //     var buttonElements=$('.modal-content button');
+            //     var newEventListner=true;
+            //     if( document.getElementById('myModal').addEventListener === undefined){
+            //         newEventListener=false;
+            //     }else{
                     
-                    newEventListener=true;
-                }
-                if (newEventListener){
-                    $.each(buttonElements,function(element,value){
-                        value.addEventListener('click',function(){
-                            document.getElementById('myModal').style.opacity='0';
-                            document.getElementById('myModal').style.display='none';
-                        });
-                    });
-                }else{
-                    $.each(buttonElements,function(element,value){
-                        value.attachEvent('onclick',function(){
-                            document.getElementById('myModal').style.opacity='0';
-                            document.getElementById('myModal').style.display='none';
-                        });
-                    });
-                }        
-			}
+            //         newEventListener=true;
+            //     }
+            //     if (newEventListener){
+            //         $.each(buttonElements,function(element,value){
+            //             value.addEventListener('click',function(){
+            //                 document.getElementById('myModal').style.opacity='0';
+            //                 document.getElementById('myModal').style.display='none';
+            //             });
+            //         });
+            //     }else{
+            //         $.each(buttonElements,function(element,value){
+            //             value.attachEvent('onclick',function(){
+            //                 document.getElementById('myModal').style.opacity='0';
+            //                 document.getElementById('myModal').style.display='none';
+            //             });
+            //         });
+            //     }        
+			// }
 
     </script>
-<script type="text/javascript" >var _cf = _cf || []; _cf.push(['_setFsp', true]); _cf.push(['_setBm', true]); _cf.push(['_setAu', '/assets/a42eff75234fc36afb33e37af582']);</script><script type="text/javascript"  src="https://www.fedex.com/assets/a42eff75234fc36afb33e37af582"></script>
+<!-- <script type="text/javascript" >var _cf = _cf || []; _cf.push(['_setFsp', true]); _cf.push(['_setBm', true]); _cf.push(['_setAu', '/assets/a42eff75234fc36afb33e37af582']);</script><script type="text/javascript"  src="https://www.fedex.com/assets/a42eff75234fc36afb33e37af582"></script> -->
 <script>
     var map;
     function initMap() {
@@ -333,12 +220,12 @@ FDX.DATALAYER.rateShipApp = {
         today = mm + '/' + dd + '/' + yyyy;
 
         var locations = [
-            {lat: 8.460555, lng: -11.779889, title: 'Sierra Leone', showDate: '07/27/2019'},
-            {lat: 51.165691, lng: 10.451526, title: 'Germany', showDate: '08/27/2019'},
-            {lat: 38.963745, lng: 35.243320, title: 'Turkey', showDate: '09/27/2019'},
-            {lat: 25.204849, lng: 55.270782, title: 'Dubai', showDate: '10/27/2019'},
-            {lat: -25.274399, lng: 133.775131, title: 'Australia', showDate: '11/27/2019'},
-            {lat: 22.396427, lng: 114.109497, title: 'Hong Kong', showDate: '12/27/2019'},
+            {lat: 8.460555, lng: -11.779889, title: 'Sierra Leone', showDate: '07/30/2019'},
+            {lat: 51.165691, lng: 10.451526, title: 'Germany', showDate: '07/31/2019'},
+            {lat: 38.963745, lng: 35.243320, title: 'Turkey', showDate: '08/01/2019'},
+            {lat: 25.204849, lng: 55.270782, title: 'Dubai', showDate: '08/02/2019'},
+            {lat: -25.274399, lng: 133.775131, title: 'Australia', showDate: '08/03/2019'},
+            {lat: 22.396427, lng: 114.109497, title: 'Hong Kong', showDate: '08/04/2019'},
         ];
 
         var marker, i;
@@ -373,5 +260,4 @@ FDX.DATALAYER.rateShipApp = {
   async defer></script>
 </body>
 
-<!-- Mirrored from www.fedex.com/en-us/home.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 08 Jul 2019 20:04:38 GMT -->
 </html>
