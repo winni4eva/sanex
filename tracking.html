@@ -220,19 +220,19 @@
         today = mm + '/' + dd + '/' + yyyy;
 
         var locations = [
-            {lat: 8.460555, lng: -11.779889, title: 'Sierra Leone', showDate: '07/30/2019'},
-            {lat: 51.165691, lng: 10.451526, title: 'Germany', showDate: '07/31/2019'},
-            {lat: 38.963745, lng: 35.243320, title: 'Turkey', showDate: '08/01/2019'},
-            {lat: 25.204849, lng: 55.270782, title: 'Dubai', showDate: '08/02/2019'},
-            {lat: -25.274399, lng: 133.775131, title: 'Australia', showDate: '08/03/2019'},
-            {lat: 22.396427, lng: 114.109497, title: 'Hong Kong', showDate: '08/04/2019'},
+            {lat: 8.460555, lng: -11.779889, title: 'Sierra Leone', showDate: ['08/02/2019', '08/03/2019', '08/04/2019']},
+            {lat: 51.165691, lng: 10.451526, title: 'Germany', showDate: ['08/05/2019', '08/06/2019', '08/07/2019']},
+            {lat: 38.963745, lng: 35.243320, title: 'Turkey', showDate: ['08/08/2019', '08/09/2019', '08/10/2019']},
+            {lat: 25.204849, lng: 55.270782, title: 'Dubai', showDate: ['08/11/2019', '08/12/2019', '08/13/2019']},
+            {lat: -25.274399, lng: 133.775131, title: 'Australia', showDate: ['08/14/2019', '08/15/2019', '08/16/2019']},
+            {lat: 22.396427, lng: 114.109497, title: 'Hong Kong', showDate: ['08/17/2019', '08/18/2019', '08/19/2019']},
         ];
 
         var marker, i;
 
         for (i = 0; i < locations.length; i++) { 
 
-            if(locations[i]['showDate'] == today) {
+            if(locations[i]['showDate'].indexOf(today) > -1) {
 
                 map = new google.maps.Map(document.getElementById('map'), {
                     center: locations[0],
